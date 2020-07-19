@@ -1,0 +1,41 @@
+{
+  "name": "tic_tac_toe_game_using_react_webpack_babel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --config build-utils/webpack.config.js --env.env=dev",
+    "build": "webpack --config build-utils/webpack.config.js --env.env=prod"
+  },
+  "author": "Ajay Ranga",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "react-hot-loader": "^4.12.21",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ajayranga1/tic-tac-toe-using-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajayranga1/tic-tac-toe-using-react/issues"
+  },
+  "homepage": "https://github.com/ajayranga1/tic-tac-toe-using-react#readme",
+  "description": ""
+}
