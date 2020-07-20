@@ -30,11 +30,10 @@ module.exports = {
     ],
     output: {
         path: path.resolve(__dirname, '../', 'dist'),
-        publicPath: '/',
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: path.join(__dirname, 'build'),
+        contentBase: path.join(__dirname, '../', 'dist'),
         compress: true,
         port: 9000,
         hot: true
